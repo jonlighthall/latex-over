@@ -1,5 +1,10 @@
+#LaTeX
 *.aux
 *.log
 *.out
-*.synctex
 *.pdf
+*.synctex
+
+#Emacs
+*~
+\#*#
