@@ -5,6 +5,10 @@
 *.pdf
 *.synctex
 
+#TeXnicCenter
+*.tcp
+*.tps
+
 #Emacs
 *~
 \#*#
