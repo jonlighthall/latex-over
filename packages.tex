@@ -19,7 +19,7 @@
 %\usepackage{latexsym}
 %\usepackage{pifont} %symbol fonts
 \usepackage{wasysym} % astonomy symbols
-\usepackage{combelow} %support for Romanian letters
+%\usepackage{combelow} %support for Romanian letters
 
 %% The default font is Latin Modern (replaces Computer Modern).  Following are a number of fonts 
 %  with extensive math and symbol support.  To use a particular font, uncomment the associated
@@ -57,13 +57,13 @@
 \ifpdf
 	\pdfminorversion=7 %PDF version compatability
 	\usepackage{graphicx}
-	\usepackage[update]{epstopdf}
+	\usepackage{epstopdf}
 	%\pdfimageresolution=10
 	%\pdfcompresslevel=9 
 	%\epstopdfDeclareGraphicsRule{.eps}{pdf}{.pdf}{ps2pdf -dEPSCrop #1 \OutputFile}
 	%\epstopdfDeclareGraphicsRule{_bw.eps}{pdf}{_bw.pdf}{ps2pdf -dEPSCrop #1 \OutputFile}
         %\epstopdfsetup{suffix=-\SourceExt-converted-to}%This line explicitly defines the default behavior
-        \epstopdfsetup{suffix=}%
+        %\epstopdfsetup{suffix=}%
 \pdfoptionpdfminorversion=6
 \else
 \usepackage{graphicx}	
@@ -233,7 +233,7 @@ citecolor=black,               %makes citation links black (instead of green)
 %% Layout Options----------------%-------------------------------
 %% --------------------------------------------------------------
 %  Set non-LaTeX-standard layout formatting here. This code was previously contained in a separate file named layout.tex
-\usepackage{adjustbox}
+%\usepackage{adjustbox}
 \hyphenation{Mesy-tec}
 \hyphenation{feed-through feed-throughs ejec-tile ejec-tiles cor-re-spond-ing sol-en-oid-al}
 
